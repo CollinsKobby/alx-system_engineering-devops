@@ -4,10 +4,9 @@
 COUNT=1
 while [ $COUNT -le 10 ]
 do
-	if [ $COUNT -eq 9 ]; then 
-		echo "Hi"
-	else
-		echo "Best School"
-	fi
+	echo "Best School"
+	if [ $COUNT -eq 9 ]; then
+                echo "Hi"
+        fi
 	(( COUNT=COUNT+1 ))
 done
