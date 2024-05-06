@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-Displays numbers from 1 to 20 with some exceptions
+# Displays numbers from 1 to 20 with some exceptions
 
 COUNT=1
 while [ $COUNT -le 20 ]
